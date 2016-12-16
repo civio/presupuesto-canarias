@@ -3,7 +3,7 @@ from django.conf.urls import patterns, url
 #from django.conf.urls.i18n import i18n_patterns
 
 
-MAIN_ENTITY_LEVEL = 'municipio'
+MAIN_ENTITY_LEVEL = 'comunidad'
 
 # Main entity name. Must be the same used in data/entidades.csv
 MAIN_ENTITY_NAME = 'Canarias'
@@ -78,7 +78,7 @@ SHOW_TAX_RECEIPT = True
 # Supported languages. Default: ('es', 'Castellano')
 LANGUAGES = (
   ('es', 'Castellano'),
-  ('en', 'English'),
+  # ('en', 'English'),
   # ('ca', 'Catal&agrave;'),
   # ('eu', 'Euskera'),
   # ('gl', 'Galego'),
