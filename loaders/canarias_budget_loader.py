@@ -45,7 +45,7 @@ class CanariasBudgetLoader(SimpleBudgetLoader):
             ec_code = match.group(2)
 
             # For years before 2015 we check whether we need to amend the programme code
-            year = re.search('municipio/(\d+)/', filename).group(1)
+            year = re.search('comunidad/(\d+)/', filename).group(1)
             if int(year) < 2015:
                 fc_code = programme_mapping.get(fc_code, fc_code)
             elif int(year) == 2015:
