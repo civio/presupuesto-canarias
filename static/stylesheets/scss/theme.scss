@@ -1,1 +1,51 @@
 @import "theme-variables";
+
+
+.social-sharing-toolbox li a{
+  background-color: $brand-primary;
+}
+
+.panel-downloads{
+  border-color: mix( $data-sources-color, white, 50% );
+  background-color: mix( $data-sources-color, white, 50% );
+
+  a{
+    color: darken( $brand-terciary, 40% );
+
+    &:hover{
+      color: $brand-primary;
+    }
+  }
+}
+
+.form-search-glossary .btn-primary{
+  border-color: darken( $brand-terciary, 30% );
+  background-color: darken( $brand-terciary, 30% );
+}
+.form-search-glossary .form-control{
+  border-color: darken( $brand-terciary, 30% );
+}
+
+.glossary-terms h3:before, .glossary-terms h4:before{
+  color: $brand-primary;
+}
+
+.navbar-brand{
+  font-size: 2.5em;
+
+  a{
+    color: $text-color;
+  }
+
+  strong{
+    font-weight: $font-weight-600;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    margin-top: 0.075em;
+  }
+
+  @media (min-width: $screen-sm-min) and (max-width: $screen-lg-min) {
+    margin-left: 0.5em;
+  }
+}
