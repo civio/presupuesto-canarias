@@ -1,164 +1,169 @@
-#Área,Política,Grupo,Programa,Descripción
-#
-# Áreas de gasto y Políticas, definidas en la Orden HAP/419/2014 y comunes a todas las EELL.
-# Ver http://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-2922
-0,,,,Deuda pública
-0,1,,,Deuda pública
+# Extraído de TOMO_3_2017_-_Resumenes.pdf
 1,,,,Servicios públicos básicos
-1,3,,,Seguridad y movilidad ciudadana
-1,5,,,Vivienda y urbanismo
-1,6,,,Bienestar comunitario
-1,7,,,Medio ambiente
+1,1,,,Justicia
+1,3,,,Seguridad ciudadana e instituciones penitenciarias
+1,4,,,Política Exterior
 2,,,,Actuaciones de protección y promoción social
-2,1,,,Pensiones
-2,2,,,Otras prestaciones económicas a favor de empleados
-2,3,,,Servicios sociales y promoción social
-2,4,,,Fomento del empleo
-3,,,,Produccion de bienes públicos de caracter preferente
+2,3,,,Servicios Sociales y Promoción Social
+2,4,,,Fomento del Empleo
+2,6,,,Acceso a la vivienda y fomento de la edificación
+3,,,,Produccion de bienes públicos de carácter preferente
 3,1,,,Sanidad
 3,2,,,Educación
 3,3,,,Cultura
-3,4,,,Deporte
-4,,,,Actuaciones de caracter económico
-4,1,,,Agricultura ganadería y pesca
-4,2,,,Industria y energía
-4,3,,,"Comercio, turismo y pequeñas y medianas empresas"
-4,4,,,Transporte público
+4,,,,Actuaciones de carácter preferente
+4,1,,,Agricultura
+4,2,,,Industria y Energía
+4,3,,,Comercio
+4,4,,,Subvenciones al transporte
 4,5,,,Infraestructuras
-4,6,,,"Investigación, desarrollo e innovación"
-4,9,,,Otras actuaciones de caracter económico
-9,,,,Actuaciones de caracter general
-9,1,,,Órganos de gobierno
+4,6,,,Investigación
+4,9,,,Otras actuaciones de carácter económico
+9,,,,Actuaciones de carácter general
+9,1,,,Alta Dirección
 9,2,,,Servicios de carácter general
-9,3,,,Administración financiera y tributaria
-9,4,,,Transferencias a otras administraciónes públicas
+9,3,,,Administración Financiera y Tributaria
+9,4,,,Transferencias a otras Administraciones Públicas
+9,5,,,Deuda Pública
 #
-# Programas específicos de Arona
-0,1,1,0,Deuda Pública
-1,3,0,0,Administración General de Seguridad y Protección Civil
-1,3,2,0,Seguridad y Orden Público
-1,3,3,0,Ordenación del tráfico y del estacionamiento
-1,3,4,0,Movilidad urbana
-1,3,5,0,Protección civil
-1,3,6,0,Servicio de prevención y extinción de incendios
-1,5,0,0,Administración General de Vivienda y urbanismo
-1,5,1,0,Urbanismo: plamen. gest. ejec. y discip. urban.
-1,5,2,0,Vivienda 
-1,5,2,1,Promoción-gestión vivienda de protección pública
-1,5,2,2,Conservación y rehabilitación de la edificación
-1,5,3,1,Acceso a los núcleos de población
-1,5,3,2,Pavimentación de vías públicas
-1,5,3,3,Vías públicas
-1,5,4,0,Fomento de la edificación protegida
-1,5,5,0,Vías públicas
-1,6,0,0,Alcantarillado
-1,6,1,0,Abastecimiento domiciliario de agua potable
-1,6,2,0,"Recogida, eliminación y tratamiento de residuos"
-1,6,2,1,Recogida de residuos
-1,6,2,2,Gestión de residuos sólidos urbanos
-1,6,2,3,Tratamiento de residuos
-1,6,3,0,Limpieza viaria
-1,6,4,0,Cementerio y servicios funerarios
-1,6,5,0,Alumbrado público
-1,6,9,0,Otros servicios de bienestar comunitario
-1,7,0,0,Administración general del medio ambiente
-1,7,1,0,Parques y jardines
-1,7,2,0,Protección y mejora del medio ambiente
-1,7,2,1,Protección-contam. acústica lumínica y atmosférica
-1,7,2,2,Mantenimiento y mejora de playas
-1,7,2,3,EDUSI
-1,7,3,0,Actuaciones en Playas
-1,7,9,0,Otras actuaciones relacionadas con el medio ambiente
-2,1,1,0,Pensiones
-2,2,1,0,Otras prestaciones económicas a favor de empleados
-2,3,0,0,Administración General de servicios sociales
-2,3,1,0,Asistencia social primaria
-2,3,2,0,Promoción social
-2,3,3,0,Asistencia a personas dependientes
-2,4,1,0,Fomento del Empleo
-2,4,1,1,Agencia Municipal de Colocación
-3,1,1,0,Protección de la salubridad pública
-3,1,2,0,"Hospitales, servicios asistenciales y centros de salud"
-3,1,3,0,Acciones públicas relativas a la salud
-3,2,0,0,Administración general de educación
-3,2,1,0,Creac. centros enseñanza preescolar y primaria
-3,2,1,9,Educación preescolar y primaria
-3,2,2,0,Creac. centros enseñanza secundaria
-3,2,2,9,Enseñanza secundaria
-3,2,3,0,"Func. centros enseñanza preescolar, primaria y especializada"
-3,2,3,9,Promoción educativa
-3,2,4,0,Func.centros enseñanza secundaria
-3,2,5,0,Vigilancia del cumplimiento escolaridad obligatoria
-3,2,6,0,Servicios complementarios de educación
-3,2,7,0,Fomento de la convivencia ciudadana
-3,2,7,1,Fomento Convivencia Jóvenes
-3,2,7,2,Fomento de convivencia ciudadana
-3,3,0,0,Administración General de Cultura
-3,3,1,0,Música
-3,3,2,0,Bibliotecas y Archivos
-3,3,2,1,Bibliotecas públicas
-3,3,2,2,Archivos
-3,3,3,0,Equipamientos culturales y museos
-3,3,4,1,Promoción cultural
-3,3,4,2,Música
-3,3,5,0,Artes escénicas
-3,3,6,0,Protección y gestión del Patrimonio Histórico-Artístico
-3,3,7,0,Instalaciones de ocupación del tiempo libre
-3,3,8,0,Fiestas populares y festejos
-3,3,9,0,Juventud
-3,4,0,0,Administración General de Deportes
-3,4,1,0,Promoción y fomento del deporte
-3,4,2,0,Instalaciones Deportivas
-3,4,3,0,Precio público por servicios deportivos
-4,1,0,0,"Administración Gral. Agricultura, Ganadería y Pesca"
-4,1,2,0,Mejora estructuras agropecuarias y sist. product.
-4,1,4,0,Desarrollo rural
-4,1,5,0,Protección y desarrollo de los recursos pesqueros
-4,1,9,0,"Otras actuaciones en agricultura, ganadería y pesca"
-4,2,0,0,Administración General de Industria y energía
-4,2,2,0,Industria
-4,2,3,0,Minería
-4,2,5,0,Energía
-4,3,0,0,"Adm. General Comercio, Turismo y PYMES"
-4,3,1,0,Comercio
-4,3,1,1,Ferias
-4,3,1,2,"Mercados, abastos y lonjas"
-4,3,1,3,Comercio ambulante
-4,3,2,0,Información y promoción turística
-4,3,3,0,Desarrollo empresarial
-4,3,9,0,Otras actuaciones sectoriales
-4,4,0,0,Administración general del transporte
-4,4,1,0,Transporte de viajeros
-4,4,1,1,Transporte colectivo urbano de viajeros
-4,4,1,2,Otro transporte de viajeros
-4,4,1,9,"Promoción, mantenimiento y desarrollo del transporte"
-4,4,2,0,Infraestructuras del transporte
-4,4,3,0,Transporte de mercancías
-4,5,0,0,Administración General de Infraestructuras
-4,5,2,0,Recursos Hidráulicos
-4,5,3,0,Carreteras 
-4,5,4,0,Caminos vecinales
-4,5,9,0,Otras infraestructuras
-4,6,2,0,Investigación y estudios relacionados servicios públicos
-4,6,3,0,"Investigación científica, técnica y aplicada"
-4,9,1,0,Sociedad de la información
-4,9,1,1,URBAN-ARONA 2007-2013
-4,9,2,0,Gestión del conocimiento
-4,9,3,0,Protección de consumidores y usuarios
-9,1,2,0,Órganos de gobierno
-9,2,0,0,Administración General 
-9,2,2,0,Coordinación-organización institucional entidades locales
-9,2,3,0,Información básica y estadística
-9,2,3,1,Gestión del Padrón Municipal de Habitantes
-9,2,4,0,Participación ciudadana
-9,2,5,0,Atención a los ciudadanos
-9,2,6,0,Comunicaciones internas
-9,2,9,0,"Imprevistos, sit. transitorias y contingencias ejecución"
-9,3,1,0,Política económica y fiscal
-9,3,2,0,Gestión del sistema tributario
-9,3,3,0,Gestión del patrimonio
-9,3,4,0,Gestión de la deuda y de la tesorería
-9,4,1,0,Transferencias a Comunidades Autónomas
-9,4,2,0,Transferencias a Entidades Locales territoriales
-9,4,3,0,Transferencias a otras Entidades Locales
-9,4,4,0,Transferencias a la Administración General del Estado
+1,1,2,A,"Tribunales de Justicia"
+1,1,2,B,"Relaciones con la Administración de Justicia"
+1,1,2,C,"Ministerio Fiscal"
+1,3,2,A,"Seguridad y Emergencia"
+1,3,2,B,"Seguridad ciudadana"
+1,4,2,A,"Acción de la Comunidad Autónoma en el Exterior"
+1,4,3,A,"Cooperación economica y al desarrollo"
+2,3,1,B,"Coordinac y Planific de Polít Soc y atenc pers may"
+2,3,1,C,"Planificación y Apoyo a los Servicios Sociales"
+2,3,1,G,"Prestaciones y otras Ayudas Sociales"
+2,3,1,H,"Prevenc. e Interv. en área del Menor y la Familia"
+2,3,1,I,"Fomento de la Inclusión Social"
+2,3,1,K,"Ejecución Medidas Judiciales Menores Infractores"
+2,3,1,M,"Atención a Personas en situación de Dependencia"
+2,3,1,N,"Atención a Personas con Discapacidad"
+2,3,1,P,"Acciones a favor de los canarios en el exterior"
+2,3,2,A,"Promoción y Fomento Calidad de Vida de los Jóvenes"
+2,3,2,B,"Promoción Igualdad de Oportunidades para Mujeres"
+2,3,9,A,"Dirección Administrativa y Servicios Generales"
+2,4,1,C,"Fomento del Empleo"
+2,6,1,A,"Dirección, Promoción y Gestión en mat. de Vivienda"
+2,6,1,E,"Ordenación del territorio"
+3,1,1,A,"Dirección Administrativa y Servicios Generales"
+3,1,1,B,"Formación Sanitaria y Social"
+3,1,2,A,"Asistencia Sanitaria"
+3,1,2,B,"Hemodonación y Hemoterapia"
+3,2,1,A,"Dirección Administrativa y Servicios Generales"
+3,2,1,B,"Form. Permanente del Profesorado e Innov. Educat."
+3,2,2,A,"Formación Profesional Turística"
+3,2,2,B,"Educación Infantil, Primaria y 1ª Ciclo de E.S.O."
+3,2,2,C,"Enseñanza Secundaria y Formación Profesional"
+3,2,2,D,"Formación Profesional Específica"
+3,2,2,F,"Financiación de las Universidades Canarias"
+3,2,2,H,"Mejora de la Capacitación Agraria y Form. Profes."
+3,2,2,J,"Formación Profesional Marítimo Pesquera"
+3,2,2,K,"Enseñanzas Régimen Especial y Educación de Adultos"
+3,2,3,A,"Apoyo a los Estudios Universitarios"
+3,2,4,C,"Servicios Complem. a la Enseñanza no Universitaria"
+3,3,1,A,"Dirección Administrativa y Servicios Generales"
+3,3,2,A,"Servicios bibliotecarios y archivisticos"
+3,3,4,A,"Promoción Cultural"
+3,3,4,B,"Infraestructura Cultural"
+3,3,4,D,"Promoción del libro y publicaciones culturales."
+3,3,6,A,"Deportes"
+3,3,7,A,"Patrimonio Cultural"
+4,1,1,A,"Dirección Administrativa y Servicios Generales"
+4,1,1,B,"Coord. Cámaras Agrar. y gest. ayudas FEAGA/FEADER"
+4,1,2,A,"Mejora de Estructuras Agrarias y del Medio Rural"
+4,1,2,B,"Ordenación y mejora de la producción agrícola"
+4,1,2,C,"Desarrollo ganadero"
+4,1,3,A,"Calidad Agroalimentaria"
+4,1,5,A,"Desarrollo Pesquero"
+4,1,5,B,"Estructuras Pesqueras"
+4,1,5,C,"Ordenación e Inspección Pesquera"
+4,2,1,A,"Dirección Administrativa y Servicios Generales"
+4,2,1,B,"Seguridad Industrial y Minera"
+4,2,5,A,"Desarrollo Energético"
+4,3,1,A,"Promoción Exterior"
+4,3,1,B,"Comercio Interior"
+4,3,2,A,"Dirección Administrativa y Servicios Generales"
+4,3,2,B,"Infraestr. Turíst. y Gest. Integral Núcleos Turíst"
+4,3,2,F,"Productos Turísticos y Calidad Turística"
+4,3,2,G,"Promoción y Apoyo a la Comercialización"
+4,3,2,H,"Planificación Turistíca y Sistema de Información"
+4,3,3,A,"Apoyo a PYMES Industriales"
+4,3,3,B,"Desarrollo Artesanal"
+4,3,3,C,"Promoción Económica"
+4,4,1,D,"Movilidad Interior"
+4,4,1,E,"Cohesión Interinsular"
+4,5,1,A,"Dirección Administrativa y Servicios Generales"
+4,5,1,C,"Calidad de las Construcciones"
+4,5,1,D,"Planificación y Programación de Infraestructuras"
+4,5,1,E,"Ordenación y Apoyo Plan Estratég. Ttes de Canarios"
+4,5,2,A,"Incremento de Recursos Hidráulicos"
+4,5,2,B,"Mejora de la Calidad del Agua"
+4,5,2,C,"Conv. Mº Medio Amb. actuaciones en mat. de aguas"
+4,5,2,D,"Estudios, Investig. y Gestión en materia de Aguas"
+4,5,3,A,"Desarrollo de Infraestructura de Carreteras"
+4,5,3,C,"Plan Cofinanciado Mejora de la Red Viaria"
+4,5,3,D,"Convenio de Carreteras con Ministerio de Fomento"
+4,5,4,A,"Infraestructura y Mantenimiento de Puertos"
+4,5,6,A,"Disciplina Urbanística y Medioambiental"
+4,5,6,C,"Apoyo a moderniz. de gestión y elab. del planeam."
+4,5,6,D,"Coordinación y Planificación Medioambiental"
+4,5,6,E,"Biodiversidad"
+4,5,6,F,"Medio Natural"
+4,5,6,G,"Calidad Ambiental"
+4,5,6,K,"Dirección Administrativa y Servicios Generales"
+4,5,6,L,"Parques Nacionales"
+4,6,1,A,"Dirección Administrativa y Servicios Generales"
+4,6,2,A,"Estadística y Documentación"
+4,6,3,B,"Capital Humano Investigador e Innovador"
+4,6,3,C,"Apoyo a la Investigación Básica y Aplicada"
+4,6,7,A,"Investigación y Desarrollo Tecnológico Agrario"
+4,6,7,B,"Apoyo a la Innovación Empresarial"
+4,6,7,C,"Apoyo al Despliegue de Sociedad de la Información"
+4,9,1,A,"Infraestruct. y Serv. de Comunicac. e Informática"
+4,9,2,A,"Defensa de los Consumidores y Usuarios"
+4,9,4,A,"Admón de Relac. Laborales y Condiciones de Trabajo"
+4,9,4,B,"Promoc. de Prev. de Riesgos Lab. y Asesor. Técnico"
+9,1,1,A,"Actuación Legislativa y de Control"
+9,1,1,B,"Diputado del Común"
+9,1,1,E,"Junta Electoral de Canarias"
+9,1,1,F,"Acción Consultiva"
+9,1,1,G,"Alta Representación de la Comunidad Autónoma"
+9,1,1,J,"Consejo Económico y Social"
+9,1,1,O,"Control externo del Sector Público"
+9,1,1,P,"Comisionado de la Transparencia"
+9,1,2,A,"Dirección Política y Gobierno"
+9,1,2,B,"Dirección Admva y Servicios Generales Presidencia"
+9,1,2,C,"Dirección Admva y Servicios Grales. Vicepresid."
+9,1,2,D,"Asistencia Técnica y Política al Presidente"
+9,1,2,E,"Asistencia Técnica y Política al Vicepresidente"
+9,1,2,G,"Relaciones con el Parlamento"
+9,1,2,H,"Gestión y mant. Oficina del Gob. de Can. en Madrid"
+9,1,2,K,"Comisionado inclusión Soc. y lucha contra pobreza"
+9,2,1,A,"Dirección Administrativa y Servicios Generales"
+9,2,1,B,"Servicio Jurídico"
+9,2,1,C,"Dirección Administrativa y Servicios Generales"
+9,2,1,D,"Relaciones Informativas"
+9,2,1,F,"Función Pública"
+9,2,1,G,"Formación y Perfeccionamiento Personal de AA.PP."
+9,2,1,H,"Mejora organiz. admva. e impulso calidad servicios"
+9,2,1,J,"Medios de Comunic. Social y Relaciones Informativ."
+9,2,1,K,"Transparencia, Participación y Colabor. Ciudadana"
+9,2,2,A,"Administración Territorial"
+9,2,3,B,"Gestión Patrimonial"
+9,2,3,C,"Gestión del Tesoro y Política Financiera"
+9,2,3,D,"Dirección Administrativa y Servicios Generales"
+9,2,3,E,"Apoyo Informático a los Servicios de Hacienda"
+9,2,9,A,"Gastos imprevistos y funciones no clasificadas"
+9,3,1,A,"Control interno y Contabilidad Pública."
+9,3,1,B,"Asuntos Economicos con la Union Europea"
+9,3,1,C,"Planificación y Presupuesto"
+9,3,2,A,"Gestion Tributaria"
+9,3,2,B,"Resolución de reclamaciones económico-admvas."
+9,4,2,A,"Transferencias a Cabildos traspaso de competencias"
+9,4,2,C,"Fondo Canario de Financiación Municipal"
+9,4,2,D,"Otras Transferencias a Corporaciones Locales"
+9,4,3,A,"Fondo de desarrollo de Canarias"
+9,5,1,M,"Amortiz y gtos fros deuda pública moneda nacional"
