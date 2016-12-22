@@ -59,7 +59,7 @@ BUDGET_LOADER = 'CanariasBudgetLoader'
 
 # Show an extra column with actual revenues/expenses. Default: True.
 # Warning: the execution data still gets shown in the summary chart and in downloads.
-# SHOW_ACTUAL = False
+SHOW_ACTUAL = False
 
 # Should we group elements at the economic subheading level, or list all of them,
 # grouping by uid?. Default: True. (i.e. group by uid, show all elements)
