@@ -12,7 +12,7 @@ MAIN_ENTITY_NAME = 'Canarias'
 BUDGET_LOADER = 'CanariasBudgetLoader'
 
 # Theme Payments Loader class name. Default: 'PaymentsLoader'
-PAYMENTS_LOADER = 'CanariasPaymentsLoader'
+# PAYMENTS_LOADER = 'CanariasPaymentsLoader'
 
 
 # Show / hide Settings
