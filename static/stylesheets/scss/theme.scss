@@ -1,5 +1,11 @@
 @import "theme-variables";
 
+.home-content .options .option>div .icon{
+  color: mix( $brand-secondary, white, 70% );
+}
+.home-content .options .option>div:hover .icon{
+  color: $brand-secondary;
+}
 
 .social-sharing-toolbox li a{
   background-color: $brand-primary;
@@ -47,5 +53,25 @@
 
   @media (min-width: $screen-sm-min) and (max-width: $screen-lg-min) {
     margin-left: 0.5em;
+  }
+}
+
+.logos-footer{
+  padding: $grid-gutter-width 0;
+
+  .logo-container{
+    margin: 0 auto $grid-gutter-width;
+    text-align: center;
+  }
+
+  .logo-container:last-child{
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    .logo-container{
+      float: left;
+      margin: 0 $grid-gutter-width 0 0;
+    }
   }
 }

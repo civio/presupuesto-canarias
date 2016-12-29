@@ -67,10 +67,10 @@ $navbar-default-bg:       $brand-primary;
 $navbar-default-bg-hover: mix( $navbar-default-bg, white, 75% );
 
 // Navbar options text color
-$dvmi-navbar-color: mix( $brand-primary, white, 10% );
+$dvmi-navbar-color: mix( $brand-primary, white, 5% );
 
-$navbar-default-link-active-color:    $brand-primary;
-$navbar-default-link-active-bg:       $brand-terciary;
+$navbar-default-link-active-color:    $text-color;
+$navbar-default-link-active-bg:       $brand-secondary;
 
 
 // Panels
@@ -148,13 +148,13 @@ $footer-bg: $brand-primary;
 // Search Form
 // --------------
 
-$search-form-bg: $brand-terciary;
+$search-form-bg: $navbar-default-link-active-bg;
 
 
 // Page Header
 // --------------
 
-$page-header-bg:            mix( $brand-secondary, white, 7% );
+$page-header-bg:            mix( $brand-secondary, white, 10% );
 $page-header-border-color:  $brand-primary; //mix( $brand-secondary, white, 70% );
 
 
