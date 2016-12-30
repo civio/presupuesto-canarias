@@ -70,7 +70,7 @@ $navbar-default-bg-hover: mix( $navbar-default-bg, white, 75% );
 $dvmi-navbar-color: mix( $brand-primary, white, 5% );
 
 $navbar-default-link-active-color:    $text-color;
-$navbar-default-link-active-bg:       $brand-secondary;
+$navbar-default-link-active-bg:       $brand-terciary;
 
 
 // Panels
@@ -148,7 +148,7 @@ $footer-bg: $brand-primary;
 // Search Form
 // --------------
 
-$search-form-bg: $navbar-default-link-active-bg;
+$search-form-bg: $brand-terciary;
 
 
 // Page Header
