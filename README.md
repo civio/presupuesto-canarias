@@ -1,2 +1,2 @@
-# presupuesto-base
-Tema base para la adaptación de DVMI
+# presupuesto-canarias
+Adaptación de DVMI para los presupuestos del Gobierno de Canarias
