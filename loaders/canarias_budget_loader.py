@@ -24,9 +24,9 @@ class CanariasBudgetLoader(SimpleBudgetLoader):
                 'is_expense': True,
                 'is_actual': is_actual,
                 'fc_code': fc_code,
-                'ec_code': ec_code[:-2],        # First three digits (everything but last two)
-                'ic_code': '000',
-                'item_number': ec_code[-2:],    # Last two digits
+                'ec_code': ec_code[:-2],           # First three digits (everything but last two)
+                'ic_code': line[1].rjust(4, '0'),  # We got 2- digit institutional codes as input, so we add prefixing zeroes
+                'item_number': ec_code[-2:],       # Last two digits
                 'description': line[4],
                 'amount': self._parse_amount(line[5 if is_actual else 5])
             }
@@ -36,7 +36,7 @@ class CanariasBudgetLoader(SimpleBudgetLoader):
                 'is_expense': False,
                 'is_actual': is_actual,
                 'ec_code': line[1][:-2],        # First three digits
-                'ic_code': '000',               # All income goes to the root node
+                'ic_code': '0000',              # All income goes to the root node
                 'item_number': line[1][-2:],    # Fourth and fifth digit; careful, there's trailing dirt
                 'description': line[2],
                 'amount': self._parse_amount(line[3 if is_actual else 3])
