@@ -109,3 +109,39 @@ header .logo-ue{
     }
   }
 }
+
+// Tax Receipt
+.tax-receipt-content .form-user-incomings{
+  padding-top: $grid-gutter-width/2;
+  background: none;
+
+  label{
+    text-align: left;
+    width: 100%;
+  }
+
+  .form-group{
+    width: auto;
+  }
+}
+
+.tax-receipt-content #tax-amount{
+  border: none;
+}
+
+.tax-receipt .tax-note{
+  padding: $grid-gutter-width/3;
+  margin-bottom: $grid-gutter-width;
+  text-align: center;
+}
+
+@media (min-width: $screen-sm-min) {
+
+  .tax-receipt-content .form-user-incomings label{
+    padding: 0 $grid-gutter-width/3;
+    margin: 0;
+    width: auto;
+    vertical-align: middle;
+    text-align: center;
+  }
+}
