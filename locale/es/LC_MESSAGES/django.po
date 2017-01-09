@@ -73,3 +73,7 @@ msgstr "Una parte del dinero recaudado se queda en la Administración General de
 
 msgid "El ayuntamiento utiliza el dinero recaudado, junto con otras fuentes de financiación como la deuda, para mantener los servicios públicos y la infraestructura de la ciudad."
 msgstr "El Gobierno de Canarias utiliza el dinero recaudado, junto con otras fuentes de financiación como puede ser la deuda, para mantener los servicios públicos."
+
+
+msgid "Un proyecto de"
+msgstr "Un proyecto desarrollado por"
