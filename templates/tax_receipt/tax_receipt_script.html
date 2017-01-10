@@ -19,18 +19,23 @@
     function calculateTaxAmount(val){
 
       // get input placeholder if empty value
-      val = (val !== '') ? val : $('#input-incomes').attr('placeholder')
-
-      if (val < 3000) {
-        val = 3000;
-        $('#input-incomes').val(val);
-      }
+      val = (val !== '') ? val : $('#input-incomes').attr('placeholder');
 
       // set income amount
       $('#income-amount').html( formatTaxAmount(val, false) );
 
-      // Finalmente, sumamos las cuotas de IRPF, IIEE e IVA para obtener lo que el ciudadano paga de impuestos:
-      return val * 0.1620;
+      // Aplicamos la tarifa del IRPF de 2016
+      var cuota_integra_irpf = 0;
+      cuota_integra_irpf += Math.min(Math.max(val, 0), 12450) * 0.19;
+      cuota_integra_irpf += Math.min(Math.max(val-12450, 0), 20200-12450) * 0.24;
+      cuota_integra_irpf += Math.min(Math.max(val-20200, 0), 35200-20200) * 0.30;
+      cuota_integra_irpf += Math.min(Math.max(val-35200, 0), 60000-35200) * 0.37;
+      cuota_integra_irpf += Math.max(val-60000, 0) * 0.45;
+
+      // calculate regional part: 50% of total
+      val = cuota_integra_irpf * .50;
+
+      return val;
     }
 
     function redrawGrid(e) {
