@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-18 12:14+0100\n"
-"PO-Revision-Date: 2017-01-03 15:29+0100\n"
+"PO-Revision-Date: 2017-01-11 18:41+0100\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +41,7 @@ msgstr "Datos de inflación (Medias anuales de IPC para Canarias)"
 
 #: templates/shared/data_sources.html:14
 msgid "Los ingresos y gastos mostrados incluyen únicamente al Gobierno de Aragón"
-msgstr "Los ingresos y gastos mostrados incluyen únicamente al Gobierno de Canarias"
+msgstr "Los datos recogidos en esta página reflejan los presupuestos de la Comunidad Autónoma de Canarias, tal como han sido aprobados por nuestro Parlamento. Sin embargo, no se desglosan los créditos que se distribuyen entre los once organismos autónomos (Servicio Canario de la Salud, Servicio Canario de Empleo, Instituto Canario de la Vivienda…) y entes públicos (RTVC, Agencia Tributaria Canaria y Consejo Económico y Social). Estos aparecen detallados como transferencias corrientes en los presupuestos de los departamentos de los que orgánicamente dependen"
 
 #: templates/tax_receipt/tax_receipt_form.html:75
 msgid "Contribuyes con un total de <strong id=\"tax-amount-paid\"></strong> a los presupuestos del Gobierno de Aragón"
@@ -73,7 +73,6 @@ msgstr "Una parte del dinero recaudado se queda en la Administración General de
 
 msgid "El ayuntamiento utiliza el dinero recaudado, junto con otras fuentes de financiación como la deuda, para mantener los servicios públicos y la infraestructura de la ciudad."
 msgstr "El Gobierno de Canarias utiliza el dinero recaudado, junto con otras fuentes de financiación como puede ser la deuda, para mantener los servicios públicos."
-
 
 msgid "Un proyecto de"
 msgstr "Un proyecto desarrollado por"
